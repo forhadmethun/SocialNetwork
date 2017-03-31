@@ -1,0 +1,327 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2015, 10:46:59 PM
+    Author     : forhad
+*/
+
+*{
+    background-color: #eff5f9;
+    
+    font-family: arial,helvatica,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.headerMenu{
+    /*background-image: url(../img/menu_bg.png);*/
+    //background-color: #00B8ED;
+    height: 45px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    
+}
+
+#wrapper{
+    
+    background-image: url(../img/menu_bg.png);
+    width: 100%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+   padding-top: 0px;
+   padding-bottom: 0px;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: auto;
+    border-left: 1px solid #dce5ee;
+    border-right: 1px solid #dce5ee;
+    padding-left: 10px;
+    padding-right: 10px;
+*/
+   //color: white;
+   
+}
+.logo{
+    width: 125px;
+}
+.logo img{
+    width: 150px;
+    height: 45px;
+}
+.search_box{
+    background-image: url(../img/menu_bg.png);
+    position: absolute;
+    top: 13px;
+    margin-left: 135px;
+    
+}
+@media screen and (max-width: 1280px){
+#menu{
+     background-image: url(../img/menu_bg.png);
+     position:absolute;
+     top: 0px;
+     right: 0px;
+     //height: 37px;
+     padding-top: 19px;
+     margin-right: 10px;
+    
+}
+}
+
+@media screen and (min-width: 1280px){
+#menu{
+    background-image: url(../img/menu_bg.png);
+     position:absolute;
+     top: 0px;
+     right: 0px;
+     //height: 37px;
+     padding-top: 19px;
+     margin-right: 10px;
+    
+}
+}
+
+#menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    background-image: url(../img/menu_bg.png);
+    background-repeat: no-repeat;
+    
+    
+    margin-top: 2px;
+    padding-top: 19px;
+    //padding-bottom: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#menu a:hover{
+    background-image: url(../img/menu_bg_hover.png);
+    //font-size: 33px;
+    
+}
+
+h2{
+    font-family: Arial,Helvatica,sans-serif;
+    font-size: 18px;
+    padding:8px;
+    color: #0084c6;
+}
+
+input[type="text"]
+{
+    background-color: #ffffff;
+    border:1px solid #e2e2e2;
+    font-size:15px;
+    padding: 5px;
+    //width: 300px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    outline:none;
+}
+input[type="text"]:hover{
+    border:1px solid blue;
+}
+input[type="submit"]{
+    background-color: #006fc4;
+    border:1px solid #00508D;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 7px;
+}
+
+p{
+    padding-top: 10px;
+}
+.textHeader{
+    background-color: #F3F6f9;
+    width: 240px;
+    height: 15px;
+    padding: 5px;
+    border-bottom: 1px solid #dce5ee;
+    font-weight: 600;
+
+}
+.profileLeftSideContent{
+    width: 194px;
+    padding: 5px 0px 5px 0px;
+    height: 200px;
+}
+.postForm{
+    position: absolute;
+    left: 324px;
+
+    float: right;
+    
+    //background-color: green;
+    border: 5px solid gray;
+    padding: 5px;
+    top: 40px;
+}
+.profilePosts{
+   
+    position: absolute;
+     right: 64px;
+    float:right;
+    width: 592px;
+    /*
+    //background-color: blue;
+    border: 5px solid yellow;
+    */
+    padding: 5px;
+    top:215px;
+    height: 480px;
+
+
+}
+
+.profileWrap{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    /*border: 5px solid blue;*/
+}
+
+hr{
+    background-color: #CECEDE;
+    height: 1px;
+    border: 0px;
+
+}
+
+.center{
+    /*text-align: center;*/
+    width: 800px;
+    height: 1200px;
+    text-align: left;
+    position: absolute;
+    left: 296px;
+}
+
+
+.feed{
+font:2px;
+border: 5px solid yellow;
+padding: 5px;
+margin: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.msgForm{
+    position: absolute;
+    left: 200px;
+
+    float: right;
+    
+    //background-color: green;
+    border: 5px solid gray;
+    padding: 5px;
+    top: 450px;
+}
+
+
+.newmsglist{
+   
+    position: absolute;
+     right: 800px;
+    float:right;
+    width: 200px;
+    
+    //background-color: blue;
+    border: 5px solid #0f9200;
+    padding: 5px;
+    top:50px;
+    height: 506px;
+
+
+}
+
+.friendlist{
+   
+    position: absolute;
+     right: 10px;
+    float:right;
+    width: 150px;
+    
+    //background-color: blue;
+    border: 5px solid #0f9200;
+    padding: 5px;
+    top:50px;
+    height: 507px;
+    right:50px;
+
+
+}
+
+.conversationhistory{
+   
+    position: absolute;
+    right: 220px;
+    float:right;
+    width: 560px;
+    
+    //background-color: blue;
+    border: 5px solid blue;
+    padding: 5px;
+    top:50px;
+    height: 380px;
+
+
+}
+
+.msglist{
+   
+    position: absolute;
+     right: 500px;
+    float:right;
+    width: 59px;
+    
+    //background-color: blue;
+    border: 5px solid yellow;
+    padding: 5px;
+    top:21px;
+    height: 480px;
+
+
+}
+
+
+.imageContainer{
+   background-image: url(img/friend.png);
+   width: 20px;
+   height: 20px;
+   background-color:rgb(34,177,76);
+
+}
+
+.vertical{
+    height: 1200px;
+}
